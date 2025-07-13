@@ -1,4 +1,3 @@
-
 const board = document.getElementById("board");
 const turnDisplay = document.getElementById("turn");
 let currentPlayer = "black";
