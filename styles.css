@@ -1,42 +1,39 @@
-body {
-  font-family: sans-serif;
- -align: center;
-  background-color: #f0f0f0;
+body background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
 }
 
 #board {
-  display: grid;
-  grid-template-columns: repeat(8, 50px);
-  grid-template-rows: repeat(8, 50px);
-  gap: 2px;
-  margin: 20px auto;
-  width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(8, 50px);
+  grid-template-rows: repeat(8, 50px);
+  gap: 2px;
+  margin: 20px auto;
+  width: fit-content;
 }
 
 .cell {
-  width: 50px;
-  height: 50px;
-  background-color: green;
-  border: 1px solid #000;
-  position: relative;
-  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  border: 1px solid #000;
+  position: relative;
+  cursor: pointer;
 }
 
 .disk {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  position: absolute;
-  top: 5px;
-  left: 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  left: 5px;
 }
 
 .black {
-  background-color: black;
+  background-color: black;
 }
 
 .white {
-  background-color: white;
+  background-color: white;
 }
-
-  
