@@ -1,1 +1,1 @@
-# Othello-Game
+# othello-game
